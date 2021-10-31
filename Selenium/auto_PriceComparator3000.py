@@ -71,7 +71,7 @@ def Trendyol(keywords):
         print("{} = {}".format(titles_text[i],prices_text[i]))
         print("\n")
 
-keywords = str(input("ARAMAK İSTEDİĞİNİZ ÜRÜNÜ 10 SANİYEDE GİRİNİZ"))
+keywords = str(input("Lütfen aramak istediğiniz ürünü yazınız :"))
 browser = webdriver.Firefox()
 
 Hepsiburada(keywords)
