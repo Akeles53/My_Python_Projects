@@ -1,5 +1,6 @@
 from selenium import webdriver
 import time
+#sa
 
 def Hepsiburada(keywords):
     browser.get("https://www.hepsiburada.com/")
